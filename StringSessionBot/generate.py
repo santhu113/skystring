@@ -114,10 +114,10 @@ async def generate_session(bot, msg, telethon=False):
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = "**{} STRING SESSION** \n\n`{}` \n\nSupport Groups @skyzusupport".format("TELETHON" if telethon else "PYROGRAM", string_session)
+    text = "**{} STRING SESSION** \n\n`{}` \n\nSupport Groups @santhuvc".format("TELETHON" if telethon else "PYROGRAM", string_session)
     await client.send_message("me", text)
     await client.disconnect()
-    await phone_code_msg.reply("Berhasil Megambil {} string session. \n\nSilahkan cek di Pesan Tersimpan/Saved Message! \n\nBy @ProjectSkyzu".format("telethon" if telethon else "pyrogram"))
+    await phone_code_msg.reply("𝚊𝚛𝚎𝚢 𝚗𝚒𝚋𝚋𝚊 𝚐𝚊 𝚜𝚊𝚟𝚎𝚍 𝚖𝚎𝚜𝚜𝚊𝚐𝚎𝚜 𝚕𝚘 𝚌𝚑𝚞𝚍𝚞{} string session. \n\n𝙲𝚑𝚞𝚍𝚞 po😅! \n\nBy @santhuvc".format("telethon" if telethon else "pyrogram"))
 
 
 async def cancelled(msg):
