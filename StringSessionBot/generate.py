@@ -32,14 +32,14 @@ async def main(_, msg):
     await msg.reply(
         "𝐄𝐊𝐀𝐃𝐀 𝐌𝐄𝐊𝐔 𝐄𝐌𝐈 𝐊𝐀𝐕𝐀𝐋𝐎 𝐒𝐄𝐋𝐄𝐂𝐓 𝐂𝐇𝐄𝐒𝐔𝐊𝐎𝐍𝐃𝐈.",
         reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton("Pyrogram", callback_data="𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌"),
-            InlineKeyboardButton("Telethon", callback_data="𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍")
+            InlineKeyboardButton("𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌", callback_data="pyrogram"),
+            InlineKeyboardButton("𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍", callback_data="telethon")
         ]])
     )
 
 
 async def generate_session(bot, msg, telethon=False):
-    await msg.reply("Memulai {} Session Generation...".format("Telethon" if telethon else "Pyrogram"))
+    await msg.reply("Memulai {} Session Generation...".format("𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍" if telethon else "𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌"))
     user_id = msg.chat.id
     api_id_msg = await bot.ask(user_id, '𝐚𝐫𝐞𝐲 𝐧𝐢𝐛𝐛𝐚 `API_ID 𝐊𝐎𝐓𝐔`', filters=filters.text)
     if await cancelled(api_id_msg):
