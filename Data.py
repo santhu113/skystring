@@ -4,6 +4,7 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
+photo=f"https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg", 
 Hello {}
 
 Nenu string session genrate bot ni {}
