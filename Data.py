@@ -4,16 +4,14 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Halo {}
+Hello {}
 
-Selamat datang {}
+Nenu string session genrate bot ni {}
 
-Jika kamu tidak percaya bot ini, 
-1) gausah baca pesan ini
-2) blokir bot atau delete chat
-
-Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
-By @skyzu
+┏━━━━━━━━━━━━━━━━━┓
+Deploy by: @santhu_music_bot
+┗━━━━━━━━━━━━━━━━━┛
+𝐓𝐡𝐢𝐬 𝐛𝐨𝐭 𝐝𝐞𝐩𝐥𝐨𝐲𝐞𝐝 𝐛𝐲 @santhu_music_bot
     """
 
     # Home Button
@@ -29,37 +27,37 @@ By @skyzu
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
-        [InlineKeyboardButton("ᴍᴀɪɴᴛᴀɴᴇᴅ ʙʏ​", url="https://t.me/skyzu")],
+        [InlineKeyboardButton("𝐍𝐞𝐭𝐰𝐨𝐫𝐤​", url="https://t.me/santhuvc")],
         [
             InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ​​", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ​", callback_data="about")
         ],
-        [InlineKeyboardButton("ɪɴꜰᴏ ʙᴏᴛ ʟᴀɪɴɴʏᴀ​", url="https://t.me/ProjectSkyzu")],
+        [InlineKeyboardButton("𝐉𝐎𝐈𝐍 𝐆𝐑𝐎𝐔𝐏​", url="https://t.me/santhuvc")],
     ]
 
     # Help Message
     HELP = """
 ✨ **Available Commands** ✨
 
-/about - Tentang Bot ini
+/about - about bot
 /help - This Message
-/start - Mulai Bot
-/generate - Mulai Generating Session
-/cancel - Membatalkan process
-/restart - Membatalkan process
+/start - start Bot
+/generate -  Generating Session
+/cancel -  process
+/restart - 𝐩𝐫𝐨𝐜𝐞𝐬𝐬
 """
 
     # About Message
     ABOUT = """
 **About This Bot** 
 
-Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @SkyStringBot
+Generate your string using pyrogram and telethon string session by @Santhustringbot
 
-Group Support : [Gabung](https://t.me/skyzusupport)
+Group Support : [Gabung](https://t.me/santhuvc)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @skyzu
+Developer : @santhu_music_bot
     """
