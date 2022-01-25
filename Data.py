@@ -3,15 +3,19 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = """
-https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg",
+    START = ""
+"https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg"
 
 Hello {} Nenu string session genrate bot ni {}
-
 ┏━━━━━━━━━━━━━━━━━┓
-Deploy by: @santhu_music_bot
+┣» 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄 𝐘𝐎𝐔𝐑 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐁𝐘 𝐔𝐒𝐈𝐍𝐆. 
+┣» 𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌.
+┣» 𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍.
+┣» 𝐄𝐍𝐉𝐎𝐘 𝐘𝐎𝐔𝐑 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍. 
+┣» [𝐃𝐄𝐏𝐋𝐎𝐘 𝐁𝐘 ❤️](https://t.me/santhu_music_bot)
 ┗━━━━━━━━━━━━━━━━━┛
-𝐓𝐡𝐢𝐬 𝐛𝐨𝐭 𝐝𝐞𝐩𝐥𝐨𝐲𝐞𝐝 𝐛𝐲 @santhu_music_bot
+[𝐎𝐖𝐍𝐄𝐑 ❤️](https://t.me/santhu_music_bot)
+𝐈𝐟 𝐘𝐨𝐮 𝐇𝐚𝐯𝐞 𝐀𝐧𝐲 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 𝐀𝐧𝐝 𝐇𝐞𝐥𝐩 𝐓𝐡𝐞𝐧 𝐃𝐦 𝐌𝐄 [𝐎𝐖𝐍𝐄𝐑 ❤️](https://t.me/santhu_music_bot)
     """
 
     # Home Button
