@@ -48,9 +48,9 @@ Hello {} Nenu string session genrate bot ni {}
 /about - about bot
 /help - This Message
 /start - start Bot
-/generate -  Generating Session
+/pyrogram - "callback_data="pyrogram"),
 /cancel -  process
-/restart - restart the bot with new updates
+/telethon - "callback_data="telethon"),
 """
 
     # About Message
