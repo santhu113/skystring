@@ -32,8 +32,10 @@ Deploy by: @santhu_music_bot
             InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ​​", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ​", callback_data="about")
         ],
-        [InlineKeyboardButton("𝐉𝐎𝐈𝐍 𝐆𝐑𝐎𝐔𝐏​", url="https://t.me/santhuvc")],
-    ]
+            [InlineKeyboardButton("𝐉𝐎𝐈𝐍 𝐆𝐑𝐎𝐔𝐏​", url="https://t.me/santhuvc")],
+        ]
+        [InlineKeyboardButton("text="𝐀𝐃𝐃 𝐂𝐇𝐄𝐒𝐔𝐊𝐎𝐍𝐃𝐈", url=f"https://t.me/Santhustringbot?startgroup=true")
+    ],    
 
     # Help Message
     HELP = """
@@ -44,7 +46,7 @@ Deploy by: @santhu_music_bot
 /start - start Bot
 /generate -  Generating Session
 /cancel -  process
-/restart - 𝐩𝐫𝐨𝐜𝐞𝐬𝐬
+/restart - restart the bot with new updates
 """
 
     # About Message
@@ -53,7 +55,7 @@ Deploy by: @santhu_music_bot
 https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg
 Generate your string using pyrogram and telethon string session by @Santhustringbot
 
-Group Support : [Gabung](https://t.me/santhuvc)
+Group Support : [NETWORK](https://t.me/santhuvc)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
