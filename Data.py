@@ -6,7 +6,7 @@ class Data:
     START = """
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg",
-        caption=f"""**hello nenu string generation bot ni 
+
 Hello {} Nenu string session genrate bot ni {}
 
 ┏━━━━━━━━━━━━━━━━━┓
